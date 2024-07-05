@@ -42,7 +42,7 @@ Each `listing` object contains the following fields:
   - `city` (string): The city where the listing is located.
 - `price` (integer): The price per night for the listing.
 - `rating` (number): The rating of the listing (between 0 and 5, with two decimal points).
-- `activities` (string): The activity available at the listing (e.g., "Camping" or "Fishing").
+- `activity` (string): The activity available at the listing (e.g., "Camping" or "Fishing").
 - `imageUrl` (string): The URL of the image representing the listing.
 
 #### Example Request
@@ -67,7 +67,7 @@ GET /listings?page=1&limit=10&search=California&sortBy=price&sortOrder=desc&acti
       "location": { "state": "California", "city": "Lake Tahoe" },
       "price": 250,
       "rating": 4.8,
-      "activities": "Camping",
+      "activity": "Camping",
       "imageUrl": "https://picsum.photos/600/400?random=1"
     },
     {
@@ -76,7 +76,7 @@ GET /listings?page=1&limit=10&search=California&sortBy=price&sortOrder=desc&acti
       "location": { "state": "California", "city": "Big Bear" },
       "price": 500,
       "rating": 4.9,
-      "activities": "Camping",
+      "activity": "Camping",
       "imageUrl": "https://picsum.photos/600/400?random=2"
     }
     // More listings...
