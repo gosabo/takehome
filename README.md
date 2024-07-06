@@ -103,7 +103,7 @@ GET /listings?page=1&limit=10&search=California&sortBy=price&sortOrder=desc&acti
 Use any tools you want: AI, LLMs, all those acronyms are fair game. Just be prepared to discuss your work in our follow-up chat, and make sure you understand the code you copy or autocomplete!
 
 ### When you're done
-- Share your private Github repo with [@ariisrael](https://github.com/ariisrael) and [@gosabo](https://github.com/gosabo)
+- Share your private Github repo with [@ariisrael](https://github.com/ariisrael)
 - Fill out [this debrief form](https://forms.gle/zkjiVcFJpWeGPsBS9) and Ari will be in touch to schedule your final interview if everything looks good 🥳
 
 #### Deploy on Vercel (Optional)
