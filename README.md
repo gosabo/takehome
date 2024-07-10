@@ -21,7 +21,7 @@ Retrieves a list of paginated, searchable, sortable, and filterable listings.
 - `search` (string, optional): A search query to filter listings by title, state, or city.
 - `sortBy` (string, optional): The field to sort the listings by. Can be `price` or `rating`. Defaults to `price`.
 - `sortOrder` (string, optional): The order to sort the listings. Can be `asc` for ascending or `desc` for descending. Defaults to `asc`.
-- `activity` (string, optional): Filter listings by a specific activity. Can be `Camping`, `Fishing`, or `Hunting`.
+- `activity` (string, optional): Filter listings by a specific activity. Can be `Camping`, `Fishing`, or `Hunting`, or a comma-seperated list.
 
 #### Response
 
